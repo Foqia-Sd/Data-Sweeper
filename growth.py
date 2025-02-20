@@ -19,8 +19,8 @@ st.markdown(
 )
 
 # Title and description
-st.title("Datasweeper by Foqia Siddiqui")
-st.write("Project for Q3")
+st.title("Data Sweeper: Smart Data Cleaning & Processing")
+st.write("Streamline Your CSV & Excel Files with One Click")
 
 # File uploader
 uploaded_files = st.file_uploader("Upload CSV or Excel file:", type=['csv', 'xlsx'], accept_multiple_files=True)
